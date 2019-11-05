@@ -28,5 +28,8 @@ gem 'capybara'
 - Create the database using the psql command CREATE DATABASE bookmark_manager;
 - Connect to the database using the pqsl command \c bookmark_manager;
 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+- Create a second database called bookmark_manager_test so that rspec tests pass
+- Create a table within this database using CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+
 
 To view bookmarks, navigate to 'localhost:3000/bookmarks'
