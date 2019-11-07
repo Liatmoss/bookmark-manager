@@ -9,7 +9,7 @@ I want to see the bookmarks in a list
 ```
 As a time-pressed user
 So that I can save a website
-I would like to add the site's address and title to Bookmark Manager
+I would like to add the site's address to Bookmark Manager
 ```
 
 When the user visits the '/bookmarks' path, their browser sends a request to a controller we built.
